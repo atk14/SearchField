@@ -70,7 +70,7 @@ In a controller:
 
 In the example above the FullTextSearchQueryLike class is used. It provides full-text-searching-like-feeling with just SQL operator LIKE. You can install it using the Composer:
 
-    composer required yarri/full-text-search-query-like
+    composer require yarri/full-text-search-query-like
 
 License
 -------
