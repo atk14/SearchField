@@ -30,8 +30,8 @@ In a form:
       function set_up(){
         $this->add_field("q", new SearchField([
           "label" => "Search",
-          "max_length" => 200,
-          "required" => false, 
+          "max_length" => 50, // default is 200
+          // by default the field is not required
         ]));
 
       }
