@@ -14,4 +14,12 @@ class SearchField extends CharField{
 		);
 		parent::__construct($options);
 	}
+
+	function widget_attrs($widget){
+		$attrs = array();
+		if (!is_null($this->max_length)) {
+			$attrs["maxlength"] = $this->max_length;
+		}
+		return $attrs;
+	}
 }
